@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat');
+
+body {margin:0;padding:0;background-color:#D3D1;}
+ul {margin: 0px; list-style:none;padding:0px; }
+
+#home-box{
+  height: 50px; 
+  width: 75px;
+  background-color: #000; 
+  color: #FB8C00; 
+  font-family: Montserrat; 
+  position: fixed;
+  bottom: 15%; 
+  right: 0px; 
+}
+
+body {margin:0;padding:0;background-color:#6f7282;}
+ul {margin: 0px; list-style:none;padding:0px; }
+#month-box,#day-box,#year-box {
+  margin: 2px; 
+}
+#console-box{
+  position:absolute;
+  top:50%; 
+  right:2%;
+  height:200px;
+  width:350px;
+  background-color:#4286f4;
+  color: #E9DC21;
+  font-family: arial;
+  padding:6px; 
+}
+#selector-box {
+ position:absolute; 
+ top: 48px;
+ left: 6%; 
+ width: 580px; 
+ height: 600px; 
+ background-color: #540a3b;
+ padding: 12px; 
+ display:flex;
+ flex-flow: column; 
+ align-content: center;
+ align-items: center;
+ justify-content:center; 
+}
+.selector-term {
+  display:flex;
+  height:70px;
+  width: 50px; 
+  flex-flow: row wrap; 
+  border: solid 5px;
+  border-color: #540a3b;
+  justify-content: center; 
+  align-items: center; 
+  align-content: center; 
+  margin: 10px; 
+  color:#832891;
+}
+.season-box {
+  height:40px;
+  width:80px;
+  line-height: 30px;
+  background: #540a3b;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.selector-years-thousands {
+  list-style:none; 
+  display:flex;
+  width: 100px;
+  height: 200px; 
+  flex-flow: column; 
+  border: solid 1px;
+  border-color: #540a3b;
+  float:left; 
+  color:#832891;
+}
+.year-thousands-box {
+  height:50px;
+  width:50px;
+  background: #540a3b;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  line-height:45px;
+}
+
+.selector-years-ones {
+  list-style:none; 
+  display:flex;
+  width: 210px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: solid 1px; 
+  border-color: #540a3b;
+  color:#832891;
+}
+.year-ones-box {
+  height:50px;
+  width:50px;
+  background: #540a3b;
+  font-size: 20px;
+  text-align: center;
+  line-height:40px;
+  margin: 6px;
+  margin-left:12px;
+}
+
+.selected {
+  background-color: #828946;
+  font-weight: bold; 
+}
+.action {
+background-color: #828946;
+    color: #fff;
+    width: auto;
+    height: 1 em;
+    padding: 0.5em 0.75em;
+    float: right;
+    border-color: #E9DC21;
+    color:#832891;
+    margin-top: 10px;}
+   
+
+
